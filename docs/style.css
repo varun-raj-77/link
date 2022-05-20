@@ -1,0 +1,19 @@
+body {
+  font-size: 100%;
+  margin: 5rem auto;
+  max-width: 700px;
+  line-height: 2;
+  padding: 0 4rem;
+  background-color: rgb(255, 255, 255);
+}
+
+.hovercard {
+  border-bottom: 1px solid;
+  color: #69e;
+  cursor: help;
+}
+
+.hovercard-element .hovercard-description::after {
+  background: linear-gradient(transparent, #fff) !important;
+}
+
